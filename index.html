@@ -1,4 +1,4 @@
-<!doctype html>
+<!doctype html> 
 <html lang="es">
 <head>
   <meta charset="utf-8">
@@ -11,8 +11,27 @@
     *{box-sizing:border-box}
     body{font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Arial; margin:0;background:var(--bg);color:var(--dark);-webkit-font-smoothing:antialiased}
     .wrap{max-width:1100px;margin:28px auto;padding:20px}
+
+    /* Avatar con logo */
+    .avatar{
+      width:92px;
+      height:92px;
+      border-radius:12px;
+      overflow:hidden;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      background:white;
+      border:1px solid #e3e3e3;
+    }
+    .logo-img{
+      width:100%;
+      height:100%;
+      object-fit:contain;
+      padding:6px;
+    }
+
     header{display:flex;gap:18px;align-items:center}
-    .avatar{width:92px;height:92px;border-radius:12px;background:linear-gradient(135deg,var(--teal),#a6d6cc);display:flex;align-items:center;justify-content:center;color:white;font-weight:700;font-size:20px}
     h1{margin:0;font-size:22px}
     .subtitle{color:var(--muted);margin-top:6px}
     .contact{margin-left:auto;text-align:right}
@@ -44,9 +63,8 @@
     .section-title{display:flex;align-items:center;gap:10px}
     .badge{width:12px;height:12px;border-radius:3px;background:var(--teal)}
 
-    /* 🔥 OPTIMIZACIÓN COMPLETA PARA CELULAR */
+    /* Responsive */
     @media (max-width: 750px) {
-
       header {
         flex-direction: column;
         text-align: center;
@@ -60,7 +78,6 @@
       .avatar {
         width: 70px;
         height: 70px;
-        font-size: 18px;
       }
 
       h1 {
@@ -82,32 +99,32 @@
       }
 
       .hero {
-        grid-template-columns: 1fr;
+        grid-template-columns:1fr;
       }
 
       aside.card {
-        order: -1; /* Sidebar arriba en móvil */
+        order:-1;
       }
 
       .services-grid {
-        grid-template-columns: 1fr;
+        grid-template-columns:1fr;
       }
 
       .packages {
-        grid-template-columns: 1fr;
+        grid-template-columns:1fr;
       }
 
       .card {
-        padding: 14px;
+        padding:14px;
       }
 
       .lead {
-        font-size: 14px;
+        font-size:14px;
       }
 
       body, html {
-        max-width: 100%;
-        overflow-x: hidden;
+        max-width:100%;
+        overflow-x:hidden;
       }
     }
   </style>
@@ -116,7 +133,11 @@
 <body>
   <div class="wrap">
     <header>
-      <div class="avatar">AY</div>
+      <!-- LOGO NUEVO -->
+      <div class="avatar">
+        <img src="logo.png" alt="Logo AYC" class="logo-img">
+      </div>
+
       <div>
         <h1>ING.ALAN YAIR CEBALLOS CRUZ</h1>
         <div class="subtitle">Servicios profesionales de Ingeniería Eléctrica — Especialista en diseño eléctrico, planos, cálculos y obras en baja tensión</div>
