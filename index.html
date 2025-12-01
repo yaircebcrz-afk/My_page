@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Alan Yair Ceballos Cruz — Servicios de Ingeniería Eléctrica</title>
   <meta name="description" content="Servicios profesionales de ingeniería eléctrica: planos, memorias de cálculo, instalaciones BT y mantenimiento. Puebla, México.">
+
   <style>
     :root{--teal:#7fbfb7;--dark:#222428;--muted:#687076;--card:#ffffff;--bg:#f6f8f8}
     *{box-sizing:border-box}
@@ -43,9 +44,75 @@
     .section-title{display:flex;align-items:center;gap:10px}
     .badge{width:12px;height:12px;border-radius:3px;background:var(--teal)}
 
-    @media(max-width:900px){.hero{grid-template-columns:1fr}.services-grid{grid-template-columns:1fr}.packages{grid-template-columns:1fr}.contact{text-align:left}}
+    /* 🔥 OPTIMIZACIÓN COMPLETA PARA CELULAR */
+    @media (max-width: 750px) {
+
+      header {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .contact {
+        margin-left: 0;
+        text-align: center;
+      }
+
+      .avatar {
+        width: 70px;
+        height: 70px;
+        font-size: 18px;
+      }
+
+      h1 {
+        font-size: 20px;
+      }
+
+      .subtitle {
+        font-size: 14px;
+      }
+
+      nav {
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+
+      nav a {
+        font-size: 14px;
+        padding: 6px 10px;
+      }
+
+      .hero {
+        grid-template-columns: 1fr;
+      }
+
+      aside.card {
+        order: -1; /* Sidebar arriba en móvil */
+      }
+
+      .services-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .packages {
+        grid-template-columns: 1fr;
+      }
+
+      .card {
+        padding: 14px;
+      }
+
+      .lead {
+        font-size: 14px;
+      }
+
+      body, html {
+        max-width: 100%;
+        overflow-x: hidden;
+      }
+    }
   </style>
 </head>
+
 <body>
   <div class="wrap">
     <header>
