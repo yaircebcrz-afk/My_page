@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Alan Yair Ceballos Cruz — Servicios de Ingeniería Eléctrica</title>
+  <meta name="description" content="Servicios profesionales de ingeniería eléctrica: planos, memorias de cálculo, instalaciones BT y mantenimiento. Puebla, México.">
+  <style>
+    :root{--teal:#7fbfb7;--dark:#222428;--muted:#687076;--card:#ffffff;--bg:#f6f8f8}
+    *{box-sizing:border-box}
+    body{font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Arial; margin:0;background:var(--bg);color:var(--dark);-webkit-font-smoothing:antialiased}
+    .wrap{max-width:1100px;margin:28px auto;padding:20px}
+    header{display:flex;gap:18px;align-items:center}
+    .avatar{width:92px;height:92px;border-radius:12px;background:linear-gradient(135deg,var(--teal),#a6d6cc);display:flex;align-items:center;justify-content:center;color:white;font-weight:700;font-size:20px}
+    h1{margin:0;font-size:22px}
+    .subtitle{color:var(--muted);margin-top:6px}
+    .contact{margin-left:auto;text-align:right}
+    .contact p{margin:0;color:var(--muted)}
+
+    nav{display:flex;gap:8px;margin:18px 0}
+    nav a{padding:8px 12px;background:white;border-radius:8px;text-decoration:none;border:1px solid #eef3f3;color:var(--dark);font-weight:600}
+
+    .hero{display:grid;grid-template-columns:1fr 320px;gap:18px;align-items:start}
+    .card{background:var(--card);padding:18px;border-radius:12px;border:1px solid #e9f0ef}
+    .lead{font-size:15px;color:#24323a;line-height:1.5}
+    .small{color:var(--muted);font-size:14px}
+
+    .services-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:12px}
+    .service{background:#fbffff;padding:12px;border-radius:10px;border:1px solid #eef6f4}
+    .service h4{margin:0 0 8px}
+    .list{margin:6px 0 0;padding-left:16px}
+
+    .full-width{margin-top:18px}
+    .packages{display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px}
+    .pkg{background:white;padding:12px;border-radius:10px;border:1px solid #edf6f5}
+    .pkg h4{margin:0 0 8px}
+
+    footer{margin-top:20px;color:var(--muted);font-size:13px;text-align:center}
+
+    .sidebar-contact{display:flex;flex-direction:column;gap:10px}
+    .btn{display:inline-block;padding:10px 12px;border-radius:8px;background:var(--teal);color:white;text-decoration:none;font-weight:700}
+
+    .section-title{display:flex;align-items:center;gap:10px}
+    .badge{width:12px;height:12px;border-radius:3px;background:var(--teal)}
+
+    @media(max-width:900px){.hero{grid-template-columns:1fr}.services-grid{grid-template-columns:1fr}.packages{grid-template-columns:1fr}.contact{text-align:left}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="avatar">AY</div>
+      <div>
+        <h1>ALAN YAIR CEBALLOS CRUZ</h1>
+        <div class="subtitle">Servicios profesionales de Ingeniería Eléctrica — Especialista en diseño eléctrico, planos, cálculos y obras en baja tensión</div>
+      </div>
+
+      <div class="contact">
+        <p>📞 <strong>2212698674</strong></p>
+        <p>📧 <strong>yaircebcrz@gmail.com</strong></p>
+        <p class="small">📍 Puebla, México · Servicios en zona metropolitana</p>
+      </div>
+    </header>
+
+    <nav>
+      <a href="#servicios">Servicios</a>
+      <a href="#campo">En Campo</a>
+      <a href="#paquetes">Paquetes</a>
+      <a href="#horarios">Horarios</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+
+    <section class="hero">
+      <div class="card">
+        <p class="lead">Ofrezco soluciones integrales en ingeniería eléctrica: desde el diseño y elaboración de planos hasta la ejecución en obra y mantenimiento. Entregables profesionales, cumplimiento de normas y atención personalizada.</p>
+
+        <div class="full-width">
+          <div class="section-title"><div class="badge"></div><h3 style="margin:0">SERVICIOS QUE OFREZCO</h3></div>
+
+          <div id="servicios" class="services-grid">
+            <div class="service">
+              <h4>1. Diseño y Planos Eléctricos</h4>
+              <ul class="list">
+                <li>Plano unifilar</li>
+                <li>Plano de iluminación y contactos</li>
+                <li>Plano de distribución y canalización</li>
+                <li>Plano de tableros y protecciones</li>
+                <li>Diagramas eléctricos y esquemas de control</li>
+                <li>Planos “As-Built” (levantamiento y corrección)</li>
+              </ul>
+            </div>
+
+            <div class="service">
+              <h4>2. Memorias de Cálculo y Documentación Técnica</h4>
+              <ul class="list">
+                <li>Cálculo de cargas</li>
+                <li>Selección de calibres y protecciones</li>
+                <li>Cálculo de caída de tensión</li>
+                <li>Memoria de eficiencia energética</li>
+                <li>Memoria descriptiva de proyecto</li>
+                <li>Catálogo de conceptos y presupuesto preliminar</li>
+                <li>Selección técnica de luminarias y equipos</li>
+              </ul>
+              <p class="small">Ideal para obras nuevas, remodelaciones y proyectos residenciales o comerciales.</p>
+            </div>
+
+            <div class="service">
+              <h4>3. Estudios y Análisis</h4>
+              <ul class="list">
+                <li>Análisis de iluminación (simulación luminotécnica: .ies/.ldt)</li>
+                <li>Análisis de eficiencia energética</li>
+                <li>Revisión de cumplimiento de normas eléctricas</li>
+                <li>Evaluación de riesgo eléctrico</li>
+                <li>Balanceo de fases y revisión de carga por circuito</li>
+              </ul>
+            </div>
+
+            <div class="service">
+              <h4 id="campo">SERVICIOS EN CAMPO – BAJA TENSIÓN</h4>
+              <div style="margin-top:8px">
+                <h5>4. Instalación Eléctrica Residencial y Comercial</h5>
+                <ul class="list">
+                  <li>Canalización con tubería, charola o canaleta</li>
+                  <li>Cableado BT</li>
+                  <li>Instalación de contactos, apagadores y luminarias</li>
+                  <li>Instalación de centros de carga / pastillas TM y DI</li>
+                  <li>Instalación de sensores, fotoceldas y controladores</li>
+                  <li>Corrección de fallas eléctricas</li>
+                </ul>
+
+                <h5 style="margin-top:8px">5. Montaje de Equipos Especiales</h5>
+                <ul class="list">
+                  <li>Instalación de tiras LED y luminarias decorativas</li>
+                  <li>Instalación de CCTV (cámaras y NVR)</li>
+                  <li>Colocación de registros y accesorios</li>
+                  <li>Sistemas de puesta a tierra básica</li>
+                </ul>
+
+                <h5 style="margin-top:8px">6. Mantenimiento Eléctrico</h5>
+                <ul class="list">
+                  <li>Revisión de tableros y protecciones</li>
+                  <li>Ajuste, limpieza y reemplazo de transformadores BT</li>
+                  <li>Diagnóstico de fallas</li>
+                  <li>Mantenimiento preventivo</li>
+                </ul>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+      <aside class="card">
+        <div class="sidebar-contact">
+          <div>
+            <strong>Contacto</strong>
+            <p class="small">Alan Yair Ceballos Cruz</p>
+            <p style="margin:6px 0"><strong>📞 2212698674</strong><br><strong>📧 yaircebcrz@gmail.com</strong></p>
+          </div>
+
+          <a class="btn" href="mailto:yaircebcrz@gmail.com">Enviar correo</a>
+          <a class="btn" href="tel:+522212698674" style="background:#2b2b2f">Llamar</a>
+
+          <div style="margin-top:8px;font-size:14px;color:var(--muted)">
+            <strong>Horarios</strong>
+            <p style="margin:6px 0">Lunes a Viernes: 7:00 PM a 7:00 AM<br>Fin de semana: disponibilidad total</p>
+          </div>
+
+          <div style="margin-top:6px;color:var(--muted)"><strong>Zona</strong><p style="margin:6px 0">Puebla, México · Servicios en zona metropolitana</p></div>
+        </div>
+      </aside>
+    </section>
+
+    <section id="paquetes" style="margin-top:18px">
+      <div class="section-title"><div class="badge"></div><h3 style="margin:0">PAQUETES DISPONIBLES</h3></div>
+      <div class="packages" style="margin-top:12px">
+        <div class="pkg">
+          <h4>Paquete Plano Completo</h4>
+          <ul class="list">
+            <li>Plano unifilar</li>
+            <li>Iluminación y contactos</li>
+            <li>Memoria de carga</li>
+            <li>Lista de materiales</li>
+          </ul>
+        </div>
+
+        <div class="pkg">
+          <h4>Paquete Instalación Residencial Básica</h4>
+          <ul class="list">
+            <li>Canalización</li>
+            <li>Cableado</li>
+            <li>Contactos + apagadores</li>
+            <li>Tablero BT</li>
+          </ul>
+        </div>
+
+        <div class="pkg">
+          <h4>Paquete Diagnóstico Eléctrico</h4>
+          <ul class="list">
+            <li>Revisión general</li>
+            <li>Balanceo</li>
+            <li>Recomendaciones técnicas</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section style="margin-top:18px">
+      <div class="section-title"><div class="badge"></div><h3 style="margin:0">GARANTÍA DE SERVICIO</h3></div>
+      <div style="margin-top:8px" class="card">
+        <ul class="list">
+          <li>Trabajo limpio y seguro</li>
+          <li>Entregables profesionales</li>
+          <li>Cumplimiento de normas</li>
+          <li>Atención personalizada</li>
+          <li>Soluciones rápidas y eficientes</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contacto" style="margin-top:18px">
+      <div class="section-title"><div class="badge"></div><h3 style="margin:0">CONTACTO</h3></div>
+      <div style="display:flex;gap:12px;margin-top:12px;flex-wrap:wrap">
+        <div class="card" style="flex:1;min-width:260px">
+          <strong>Teléfono</strong>
+          <p class="small">📞 2212698674</p>
+          <strong>Email</strong>
+          <p class="small">📧 yaircebcrz@gmail.com</p>
+        </div>
+        <div class="card" style="flex:1;min-width:260px">
+          <strong>Ubicación</strong>
+          <p class="small">Puebla, México · Servicios en zona metropolitana</p>
+          <strong>Horarios</strong>
+          <p class="small">Lunes a Viernes: 7:00 PM a 7:00 AM · Fin de semana: disponible</p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      © <strong>Alan Yair Ceballos Cruz</strong> · Ingeniería Eléctrica • Página generada por plantilla simple
+    </footer>
+  </div>
+</body>
+</html>
